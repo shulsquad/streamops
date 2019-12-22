@@ -2,17 +2,31 @@
   "env": {
     "browser": false,
     "commonjs": true,
-    "node": true
+    "node": true,
+    "mocha": true
   },
+  "extends": [
+    "standard",
+    "mocha",
+    "plugin:prettier/recommended"
+  ],
   "rules": {
     "prefer-const": "off"
   },
-  "extends": ["standard", "plugin:prettier/recommended"],
   "parserOptions": {
     "sourceType": "module",
     "ecmaVersion": 2018,
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true
     }
+  },
+  "globals": {
+    "describe": true,
+    "before": true,
+    "beforeEach": true,
+    "after": true,
+    "afterEach": true,
+    "it": true,
+    "expect": true
   }
 }

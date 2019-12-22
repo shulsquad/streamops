@@ -25,7 +25,6 @@
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
     "husky": "^3.1.0",
     "mocha": "^6.2.2",
     "nyc": "^14.1.1",
@@ -40,5 +39,11 @@
   "engineStrict": true,
   "engines": {
     "node": "12.14.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint-config-mocha": "0.0.0",
+    "eslint-plugin-mocha-only": "0.0.3",
+    "eslint-plugin-standard": "^4.0.1"
   }
 }
