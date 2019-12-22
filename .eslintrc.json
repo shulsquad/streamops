@@ -1,0 +1,18 @@
+{
+  "env": {
+    "browser": false,
+    "commonjs": true,
+    "node": true
+  },
+  "rules": {
+    "prefer-const": "off"
+  },
+  "extends": ["standard", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2018,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  }
+}
